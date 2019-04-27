@@ -1,5 +1,6 @@
 package ir.client.retrofittask;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -13,5 +14,18 @@ public class ExampleUnitTest {
     @Test
     public void addition_isCorrect() {
         assertEquals(4, 2 + 2);
+    }
+
+    @Test
+    public void checkMovieName(){
+        MainActivity activity = new MainActivity();
+        String result = activity
+
+    }
+
+    @Test
+    public void checkYear(){
+        MainActivity activity = new MainActivity();
+        int result = activity.
     }
 }
